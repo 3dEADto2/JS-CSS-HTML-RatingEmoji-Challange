@@ -7,12 +7,12 @@ for (const [index, el] of starEl.entries()) {
         const elIndex = index;
         if (!el.classList.contains('full')) {
             for (let i = 0; i <= elIndex; i++) {
-                starEl[i].src = '/files/starFull.svg';
+                starEl[i].src = '/JS-CSS-HTML-RatingEmoji-Challange/files/starFull.svg';
                 starEl[i].classList.add('full');
             }
         } else {
             for (let i = 4; i > elIndex; i--) {
-                starEl[i].src = '/files/starEmpty.svg';
+                starEl[i].src = '/JS-CSS-HTML-RatingEmoji-Challange/files/starEmpty.svg';
                 starEl[i].classList.remove('full');
             }
         }
